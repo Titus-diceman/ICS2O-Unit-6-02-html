@@ -17,10 +17,6 @@
  * Input.
  */
 
-/**
- * Input
- */
-
  function updateCount() {
   if (localStorage.clicks) {
     document.getElementById("output").innerHTML = "Cookies: " + localStorage.clicks
